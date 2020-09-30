@@ -159,7 +159,7 @@ public class JavaTest20200927 {
             String serialNumber = badmintonRacket.getSerialNumber();
             String number = badmintonRacket.getNumber();
             if (serialNumber.contains("F277")) {
-                // 序號有F277 才存入List
+                // 序號有F277
                 System.out.println("第五題答案, 球拍編號" + number);
             }
         }
@@ -186,7 +186,6 @@ public class JavaTest20200927 {
         /*
              Q7: 幫我找出結尾序號有 "003” 的球拍,答案寫出編號?
          */
-        // 寫一個新球拍Array
         for (BadmintonRacket badmintonRacket : badmintonRacketList) {
             String serialNumber = badmintonRacket.getSerialNumber();
             String number = badmintonRacket.getNumber();
