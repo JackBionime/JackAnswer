@@ -154,7 +154,6 @@ public class JavaTest20200927 {
          /*
              Q5 : 找出序號有 "F277” 的球拍,答案寫出編號
          */
-        // 寫一個新球拍Array
         for (BadmintonRacket badmintonRacket : badmintonRacketList) {
             String serialNumber = badmintonRacket.getSerialNumber();
             String number = badmintonRacket.getNumber();
